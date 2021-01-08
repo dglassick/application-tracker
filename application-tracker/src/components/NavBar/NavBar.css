@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  height: 60px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightgrey;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-evenly;
+}
+
+.navbar__logo {
+  align-items: center;
+  width: 100px;
+  margin: 0 20px;
+}
+
+.navbar__logoIcon {
+  margin-top: 5px;
+  padding-right: 5px;
+  height: 32px !important;
+  text-decoration: none;
+}
+
+.navbar__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar__newApplication {
+  padding-right: 5px;
+}
+
+.navbar__auth {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+}
+
+.navbar__authLineOne {
+  font-size: 10px;
+}
+.navbar__authLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
